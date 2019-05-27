@@ -37,7 +37,7 @@ type Response struct {
 	// from the map by querying with key 'probability'; And result is by key 'words'.
 	WordsResult    []map[string]interface{} `json:"words_result"`
 	WordsResultNum uint32                   `json:"words_result_num"`
-	Words          string                   `json:"+words"`
+	Words          string                   `json:"words"`
 	Probability    float32                  `json:"probability"`
 }
 
